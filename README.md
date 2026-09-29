@@ -52,7 +52,7 @@
 
 | 路径 | 内容 |
 | --- | --- |
-| [`paper/final_paper.pdf`](paper/final_paper.pdf) | 最终论文；README 的模型和结果以此为准 |
+| [`paper/final_paper.pdf`](paper/final_paper.pdf) | 最终论文；为便于下载，仅对 PDF 内重复对象做无损去重，README 的模型和结果以此为准 |
 | [`code/`](code/) | 提交支撑材料中的问题一、二、三、4-2、4-3 独立脚本 |
 | [`artifacts/base_forecasts_submission.npz`](artifacts/base_forecasts_submission.npz) | 提交版本留档的负荷和光伏基础预测，用于 `archive` 复算模式 |
 | [`docs/reproduce.md`](docs/reproduce.md) | 输入文件布局、依赖及逐问运行命令 |

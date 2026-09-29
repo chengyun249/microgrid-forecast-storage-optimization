@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# Official input data and generated results
+data/**/*.xlsx
+data/**/*.csv
+outputs/
+output/
+result*.xlsx
+*.log
+
+# Local research caches; the one documented submission archive is tracked explicitly
+*.joblib
+*.pkl
+*.npy
+*.npz
+!artifacts/base_forecasts_submission.npz
