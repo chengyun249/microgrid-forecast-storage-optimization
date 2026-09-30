@@ -2,7 +2,7 @@
 
 2026 年高教社杯全国大学生数学建模竞赛 C 题《微网与外部电网电力调控策略》的建模研究整理。项目以 **10 分钟区间的供需平衡、储能状态和实际购电费用** 为共同口径，从确定性调度出发，逐步引入负荷与光伏预测、历史误差情景、日内预报更新和波动电价。
 
-本仓库依据[最终论文](paper/final_paper.pdf)组织模型主线，并保留提交支撑材料中的五个独立运行脚本。它是竞赛研究记录，不是已部署的微网控制系统。
+本仓库依据[最终论文](paper/final_paper.pdf)组织模型主线，并保留提交支撑材料中的五个独立运行脚本。[研究导读](docs/research_guide.md)可直接在 GitHub 阅读，按四个问题解释模型机制、核心代码和流程图。它是竞赛研究记录，不是已部署的微网控制系统。
 
 ## 研究问题与方法主线
 
@@ -55,6 +55,7 @@
 | [`paper/final_paper.pdf`](paper/final_paper.pdf) | 最终论文；为便于下载，仅对 PDF 内重复对象做无损去重，README 的模型和结果以此为准 |
 | [`code/`](code/) | 提交支撑材料中的问题一、二、三、4-2、4-3 独立脚本 |
 | [`artifacts/base_forecasts_submission.npz`](artifacts/base_forecasts_submission.npz) | 提交版本留档的负荷和光伏基础预测，用于 `archive` 复算模式 |
+| [`docs/research_guide.md`](docs/research_guide.md) | 逐问模型思路、关键算法、核心代码入口与流程图 |
 | [`docs/reproduce.md`](docs/reproduce.md) | 输入文件布局、依赖及逐问运行命令 |
 | [`data/README.md`](data/README.md) | 官方附件的获取方式；原始附件未在本仓库重复上传 |
 
