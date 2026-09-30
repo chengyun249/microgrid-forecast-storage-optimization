@@ -258,7 +258,7 @@ $`\mathcal T_{k,j}`$ 为回归树，$`[x]_+=\max\{x,0\}`$。$`b^{(1)}_{k,t}=0`$ 
 （4）日历曲线Ridge：补充缓慢变化的整日形态。短期滞后模型容易随近期扰动变化，因此另用预先已知的日历变量预测整日曲线。令ak = 2π(doyk −1)/365.25，年周期特征为ak = (sin ak, cos ak, sin 2ak, cos 2ak)。光伏使用ak；负载再加入星期哑变量及其与一阶年周期的交互。将相应特征记作ck，整日响应记为yk ∈R144，求解
 
 ```math
-\min_{A,\boldsymbol b}\ \sum_{j<k}\omega_{k,j}
+\min_{A,\boldsymbol b}\ \sum_{j\lt k}\omega_{k,j}
  \|\boldsymbol y_j-A^{\mathsf T}\boldsymbol c_j-\boldsymbol b\|_2^2
  +\lambda_{\mathrm C}\|A\|_{\mathrm F}^2,
  \qquad \omega_{k,j}=2^{-(k-1-j)/84}.\tag{7}
@@ -997,7 +997,7 @@ p\bigl[G+1.5(A-G)_+-0.5(G-A)_+\bigr]
 ```math
 g^0_{k,t}=\begin{cases}
  g^{\mathrm b}_{k,t},&1\leq t\leq36,\\
- 0.5g^{\mathrm b}_{k,t}+0.5\widetilde g_{k,t},&36<t\leq T.
+ 0.5g^{\mathrm b}_{k,t}+0.5\widetilde g_{k,t},&36\lt t\leq T.
  \end{cases}\tag{42}
 ```
 
