@@ -2,7 +2,7 @@
 
 2026 年高教社杯全国大学生数学建模竞赛 C 题《微网与外部电网电力调控策略》的建模研究整理。项目以 **10 分钟区间的供需平衡、储能状态和实际购电费用** 为共同口径，从确定性调度出发，逐步引入负荷与光伏预测、历史误差情景、日内预报更新和波动电价。
 
-本仓库依据[最终论文](paper/final_paper.pdf)组织模型主线，并保留提交支撑材料中的五个独立运行脚本。[论文摘要与正文（Markdown）](paper/article_text.md)可直接在 GitHub 阅读，含公式、结果表与插图；若公式显示异常，可查看[公式源码索引](paper/equations_source.md)。[研究导读](docs/research_guide.md)按四个问题解释模型机制、核心代码和流程图。它是竞赛研究记录，不是已部署的微网控制系统。
+本仓库依据[最终论文](paper/final_paper.pdf)组织模型主线，并保留提交支撑材料中的五个独立运行脚本。推荐从[完整图文与公式（静态阅读页）](https://chengyun249.github.io/microgrid-forecast-storage-optimization/paper/article.html)阅读；[论文摘要与正文（Markdown）](paper/article_text.md)也可在 GitHub 查看，但图片加载受本地网络影响；若公式显示异常，可查看[公式源码索引](paper/equations_source.md)。[研究导读](docs/research_guide.md)按四个问题解释模型机制、核心代码和流程图。它是竞赛研究记录，不是已部署的微网控制系统。
 
 ## 研究问题与方法主线
 

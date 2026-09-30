@@ -1,6 +1,6 @@
 # 预测与储能反馈协同的微网购电优化
 
-> 阅读提示：如果图像未显示，可尝试每幅图下方的“打开原图”链接。公式预览异常时，可查看[公式源码索引](equations_source.md)。
+> 阅读提示：推荐使用[静态阅读页](https://chengyun249.github.io/microgrid-forecast-storage-optimization/paper/article.html)查看完整正文、图片和公式。如果当前 GitHub 页面未显示插图，可点击每幅图下方的“打开原图”；公式另见[源码索引](equations_source.md)。
 
 ## 摘要
 
@@ -28,7 +28,7 @@
 
 ![图1 微电网各主体及其关系示意图](images/figure_01.png)
 
-[打开原图：图1 微电网各主体及其关系示意图](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_01.png)
+[打开原图：图1 微电网各主体及其关系示意图](https://chengyun249.github.io/microgrid-forecast-storage-optimization/paper/images/figure_01.png)
 
 **图1 微电网各主体及其关系示意图**
 
@@ -46,7 +46,7 @@
 
 ![图2 各问题关联与求解逻辑](images/figure_02.png)
 
-[打开原图：图2 各问题关联与求解逻辑](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_02.png)
+[打开原图：图2 各问题关联与求解逻辑](https://chengyun249.github.io/microgrid-forecast-storage-optimization/paper/images/figure_02.png)
 
 **图2 各问题关联与求解逻辑**
 
@@ -121,7 +121,7 @@
 
 ![图3 典型日负载、光伏预测出力与购电电价](images/figure_03.png)
 
-[打开原图：图3 典型日负载、光伏预测出力与购电电价](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_03.png)
+[打开原图：图3 典型日负载、光伏预测出力与购电电价](https://chengyun249.github.io/microgrid-forecast-storage-optimization/paper/images/figure_03.png)
 
 **图3 典型日负载、光伏预测出力与购电电价**
 
@@ -207,13 +207,13 @@
 
 ![图4 问题二的预测、决策与执行关系](images/figure_04.png)
 
-[打开原图：图4 问题二的预测、决策与执行关系](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_04.png)
+[打开原图：图4 问题二的预测、决策与执行关系](https://chengyun249.github.io/microgrid-forecast-storage-optimization/paper/images/figure_04.png)
 
 **图4 问题二的预测、决策与执行关系**
 
 ![图5 附件2 负载与光伏的月度变化及日内供需特征](images/figure_05.png)
 
-[打开原图：图5 附件2 负载与光伏的月度变化及日内供需特征](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_05.png)
+[打开原图：图5 附件2 负载与光伏的月度变化及日内供需特征](https://chengyun249.github.io/microgrid-forecast-storage-optimization/paper/images/figure_05.png)
 
 **图5 附件2 负载与光伏的月度变化及日内供需特征**
 
@@ -478,7 +478,7 @@ F=\sum_{k\in\mathcal D}\sum_{t=1}^{T}p_t(g_{k,t}+5u_{k,t})
 
 ![图6 各月计划购电费与紧急购电费构成](images/figure_06.png)
 
-[打开原图：图6 各月计划购电费与紧急购电费构成](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_06.png)
+[打开原图：图6 各月计划购电费与紧急购电费构成](https://chengyun249.github.io/microgrid-forecast-storage-optimization/paper/images/figure_06.png)
 
 **图6 各月计划购电费与紧急购电费构成**
 
@@ -611,7 +611,7 @@ F=\sum_{k\in\mathcal D}\sum_{t=1}^{T}p_t(g_{k,t}+5u_{k,t})
 
 ![图7 问题三的预测更新、协同决策与滚动执行关系](images/figure_07.png)
 
-[打开原图：图7 问题三的预测更新、协同决策与滚动执行关系](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_07.png)
+[打开原图：图7 问题三的预测更新、协同决策与滚动执行关系](https://chengyun249.github.io/microgrid-forecast-storage-optimization/paper/images/figure_07.png)
 
 **图7 问题三的预测更新、协同决策与滚动执行关系**
 
@@ -872,7 +872,7 @@ a^{(r)}_{k,t}=\left[\overline a^{(r)}_{k,t}+z_t\sigma_{k,r,t}\right]_{+},
 
 ![图8 波动电价下两类策略的继承关系与新增机制](images/figure_08.png)
 
-[打开原图：图8 波动电价下两类策略的继承关系与新增机制](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_08.png)
+[打开原图：图8 波动电价下两类策略的继承关系与新增机制](https://chengyun249.github.io/microgrid-forecast-storage-optimization/paper/images/figure_08.png)
 
 **图8 波动电价下两类策略的继承关系与新增机制**
 
@@ -892,7 +892,7 @@ a^{(r)}_{k,t}=\left[\overline a^{(r)}_{k,t}+z_t\sigma_{k,r,t}\right]_{+},
 
 ![图9 附件4 波动电价的日内、星期与阶段变化特征](images/figure_09.png)
 
-[打开原图：图9 附件4 波动电价的日内、星期与阶段变化特征](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_09.png)
+[打开原图：图9 附件4 波动电价的日内、星期与阶段变化特征](https://chengyun249.github.io/microgrid-forecast-storage-optimization/paper/images/figure_09.png)
 
 **图9 附件4 波动电价的日内、星期与阶段变化特征**
 
