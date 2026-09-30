@@ -1,5 +1,7 @@
 # 预测与储能反馈协同的微网购电优化
 
+> 阅读提示：如果图像未显示，可尝试每幅图下方的“打开原图”链接。公式预览异常时，可查看[公式源码索引](equations_source.md)。
+
 ## 摘要
 
 针对光伏、负载与电价变化下的微网购电问题，本文以总购电费用最小为目标，在供需平衡与储能约束下，建立由确定性调度向预测驱动、日内调整和波动电价逐步扩展的优化模型。问题二至四均以2025 年2 月至12 月共334 天的数据评价。
@@ -26,6 +28,8 @@
 
 ![图1 微电网各主体及其关系示意图](images/figure_01.png)
 
+[打开原图：图1 微电网各主体及其关系示意图](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_01.png)
+
 **图1 微电网各主体及其关系示意图**
 
 ### 1.2 问题提出
@@ -41,6 +45,8 @@
 问题四：引入外网电价实时波动特性，分别在固定合同、日内改约两种运行机制下复现问题二、三模型求解，对比分析两种机制的购电成本与储能运行行为差异。
 
 ![图2 各问题关联与求解逻辑](images/figure_02.png)
+
+[打开原图：图2 各问题关联与求解逻辑](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_02.png)
 
 **图2 各问题关联与求解逻辑**
 
@@ -114,6 +120,8 @@
 附件1 的典型日负载、光伏预测出力及购电电价三者变化曲线如图3所示。
 
 ![图3 典型日负载、光伏预测出力与购电电价](images/figure_03.png)
+
+[打开原图：图3 典型日负载、光伏预测出力与购电电价](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_03.png)
 
 **图3 典型日负载、光伏预测出力与购电电价**
 
@@ -199,9 +207,13 @@
 
 ![图4 问题二的预测、决策与执行关系](images/figure_04.png)
 
+[打开原图：图4 问题二的预测、决策与执行关系](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_04.png)
+
 **图4 问题二的预测、决策与执行关系**
 
 ![图5 附件2 负载与光伏的月度变化及日内供需特征](images/figure_05.png)
+
+[打开原图：图5 附件2 负载与光伏的月度变化及日内供需特征](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_05.png)
 
 **图5 附件2 负载与光伏的月度变化及日内供需特征**
 
@@ -466,6 +478,8 @@ F=\sum_{k\in\mathcal D}\sum_{t=1}^{T}p_t(g_{k,t}+5u_{k,t})
 
 ![图6 各月计划购电费与紧急购电费构成](images/figure_06.png)
 
+[打开原图：图6 各月计划购电费与紧急购电费构成](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_06.png)
+
 **图6 各月计划购电费与紧急购电费构成**
 
 注：图中“全年”均指2025 年2 至12 月的正式评价区间。
@@ -596,6 +610,8 @@ F=\sum_{k\in\mathcal D}\sum_{t=1}^{T}p_t(g_{k,t}+5u_{k,t})
 令发布序号r = 0, 1, 2, 3 分别对应0、6、12、18 时，并记br = 36r。信息集Ik,r 仅包含发布时间前已经实现的负载、光伏和储电量，以及当时已经发布的预报，从而避免使用未来信息。问题二的日前负载与光伏预测记为 $`\widehat L^B`$、$`\widehat P^B`$，四个基础模型在日内不再重训。
 
 ![图7 问题三的预测更新、协同决策与滚动执行关系](images/figure_07.png)
+
+[打开原图：图7 问题三的预测更新、协同决策与滚动执行关系](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_07.png)
 
 **图7 问题三的预测更新、协同决策与滚动执行关系**
 
@@ -856,6 +872,8 @@ a^{(r)}_{k,t}=\left[\overline a^{(r)}_{k,t}+z_t\sigma_{k,r,t}\right]_{+},
 
 ![图8 波动电价下两类策略的继承关系与新增机制](images/figure_08.png)
 
+[打开原图：图8 波动电价下两类策略的继承关系与新增机制](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_08.png)
+
 **图8 波动电价下两类策略的继承关系与新增机制**
 
 图8中，4-2 用价格、供需配对情景优化固定合同；4-3 在0 时预估未来改约，并在真实预报发布后调整合同。二者共享价格模型，按实际储电量连续执行。
@@ -873,6 +891,8 @@ a^{(r)}_{k,t}=\left[\overline a^{(r)}_{k,t}+z_t\sigma_{k,r,t}\right]_{+},
 图9(b) 给出全年日均价及28 日滑动均值。1 月、5 月、7 月和12 月的日均价月平均分别约0.860、0.691、0.830 和0.862 元/kWh，显示价格水平存在阶段性升降。
 
 ![图9 附件4 波动电价的日内、星期与阶段变化特征](images/figure_09.png)
+
+[打开原图：图9 附件4 波动电价的日内、星期与阶段变化特征](https://cdn.jsdelivr.net/gh/chengyun249/microgrid-forecast-storage-optimization@main/paper/images/figure_09.png)
 
 **图9 附件4 波动电价的日内、星期与阶段变化特征**
 
